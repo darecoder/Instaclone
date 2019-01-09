@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>instagram  clone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="instaclone.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6" id="fadeshow1">
+				<div class="insta">
+				<div style="position: relative; left: 0; top: 0;">
+		<img src="http://www.wolyo.co.kr/news/photo/201606/38406_27692_4222.jpg" class="fishes"/>
+		<div class="fish" id="fishid">
+		 <img class="mySlides" src="https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg" style="height:370px;">
+  <img class="mySlides" src="https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg" style="height:370px;" >
+  <img class="mySlides" src="https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg" style="height:370px;" >
+
+	
+	</div>
+	</div>
+</div>
+			</div>
+
+		
+			<div class="col-lg-6 col-md-6 col-xs-12"  >
+				
+				<div class="jumbotron">
+					<h3><strong>Instagram</strong></h3>
+					<p style="font-size: 17px;text-align: center;">Sign up to see photos and videos from your friends.</p>
+					<a class="btn btn-primary" href="#" role="button"><i class="fab fa-facebook"></i> Log In with Facebook </a>
+					<hr class="line">
+
+					<form>
+  <div class="form-group">
+   
+    <input type="email" type="number" class="form-control" placeholder="Email or mobile number">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control"  placeholder="Full Name">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control"  placeholder="Username">
+  </div>
+  
+  <div class="form-group">
+    <input type="password" class="form-control"  placeholder="Password">
+  </div>
+  
+</form>
+<a class="btn btn-primary" href="#" role="button"> Sign Up </a>
+<p style="font-size: 17px;text-align: center;margin-top:10px;">By signing up, you agree to our <strong>Terms, Data Policy</strong> and <strong>Cookies</strong> Policy.</p>
+					</div>
+					<div style="width:100%;" class="row">
+						<div class="col-lg-12">
+							<div   style="width:74%;" id ="account"class="jumbotron">
+								<p style="font-size:15px; margin:auto;">Have an account?<a href="#">  Log in</a></p>
+							</div>
+							<p  style=" text-align: center; margin-top=:2%;margin-left:-20%;">Get the App</p>
+							<div id="buttons" class="col-lg-12">
+							<button style="width:25%; height:50px; float:left; background-color:black;margin-right:2%; margin-left:-3%; 
+							"type="button" class="btn btn-primary"><i class="fab fa-apple"></i> <span>Download on the</span><br><strong>App store</strong></button>
+							<button  style="width:25%; height:50px;background-color:black;float:left; margin-right:2%;"type="button" class="btn btn-primary"><i class="fab fa-google-play"></i> <span>get it on</span><br><strong>google play</strong></button>
+							<button  style="width:25%;height:50px;  background-color:black;float:left; margin-right:2%;"type="button" class="btn btn-primary"><i class="fab fa-microsoft"></i>  <span>get it from</span><br><strong>Microsoft</strong></button>
+							</div>
+						</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="xyz"class="container">
+		<div class="row">
+			<div class="col-lg-6 "style="width:80%"><a style="padding-right:2%;" href="#">about us</a><a href="#">press</a>
+			<a style="padding-right:2%;" href="#">API  </a>
+			<a  style="padding-right:2%;"href="#">JOBS  </a>
+			<a style="padding-right:2%;"href="#">privacy</a>
+			<a style="padding-right:2%;"href="#">TERMS</a>
+			<a  style="padding-right:2%;"href="#">DIRECTORY  </a>
+		<a style="padding-right:2%;"href="#">PROFILES</a>
+			<a style="padding-right:2%;"href="#">HASHTAGS</a>
+			<a style="padding-right:2%;"href="#">LANGUAGE</a> </div>
+			<div class="col-lg-6 "style="width:20%; padding-left: 5%"><p>2018 INSTAGRAM</p></div>
+			
+			
+		</div>
+	</div>
+
+<script>
+  
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+	
+		
